@@ -1,9 +1,7 @@
-import React from "react";
-
 const News = () => {
   return (
     <div>
-      <h2>this is news</h2>
+      <h2>news details coming soon</h2>
     </div>
   );
 };
