@@ -9,7 +9,8 @@ const Category = () => {
 
   return (
     <div>
-      <h2>Total Category news is : {categoryNews.length}</h2>
+      {id && <h2>Total Category news is : {categoryNews.length}</h2>}
+      {/* ekane home e click korle jate eta na dekai, oijonno. */}
       {categoryNews.map((news) => (
         <NewsCard key={news._id} news={news}></NewsCard>
       ))}
